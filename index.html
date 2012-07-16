@@ -32,7 +32,7 @@
       <section>
         <div id="title">
           <h1>Stellar-tweetbot</h1>
-          <p>An automated bot which retweets Flow from your Stellar.io account.</p>
+          <p>An automated bot which makes your Twitter stream more interesting.</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/mikeindustries">mikeindustries</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
@@ -40,12 +40,12 @@
 
 <h3>What does this thing do?</h3>
 
-<p><a href="http://kottke.org">Jason Kottke</a> runs a popular service called <a href="http://stellar.io">Stellar</a> which allows you to follow a bunch of interesting people and then see all of the tweets, Flickr photos, YouTube videos, etc. they fave. It's a great way to discover content that interesting people find interesting. It does, however, require you to visit <a href="http://stellar.io">Stellar.io</a> every time you want to see new stuff. This is quite reasonable. However, since tweets are so fleeting (and many people already have their Twitter clients up all day), I created a script which takes all of the tweets from your Stellar flow and retweets them from your own zombie Twitter account (<a href="http://twitter.com/mike_stellar">@mike_stellar</a> is mine). You can then follow that account and get the tweets in your own Twitter stream. It's a great way to supplement your Twitter stream with interesting content from people you don't follow on Twitter.</p>
+<p>The esteemed <a href="http://kottke.org">Jason Kottke</a> runs a popular service called <a href="http://stellar.io">Stellar</a> which allows you to follow a bunch of interesting people and then see all of the tweets, Flickr photos, YouTube videos, and such that they fave. It's a great way to discover content that allegedly interesting people find interesting. It does, however, require you to visit <a href="http://stellar.io">Stellar.io</a> every time you want to see new stuff. This is quite reasonable. However, since tweets are so fleeting (and many people already have their Twitter clients up all day), I created a script which takes all of the tweets from your Stellar flow and retweets them from your own zombie Twitter account (<a href="http://twitter.com/mike_stellar">@mike_stellar</a> is mine). You can then follow that account and get its retweets in your own Twitter stream. It's a great way to supplement your Twitter stream with interesting content from people you don't follow on Twitter.</p>
 
 <h3>What you'll need</h3>
 
 <p>
-	<ul><li>A Stellar.io account</li>
+	<ul><li>A <a href="http://stellar.io">Stellar.io</a> account</li>
 		<li>Your current Twitter account</li>
 		<li>A new zombie Twitter account</li>
 		<li>A server on which to run this PHP script</li>
@@ -57,11 +57,11 @@
 
 <p>
 		<ol>
-			<li>First, sign up for an account on Stellar.io if you don't have one already, follow some people, and see if you like the results. If you do, follow on to the next step. If you don't, go outside and have a beer; you're done here.</li>
+			<li>First, sign up for an account on <a href="http://stellar.io">Stellar.io</a> if you don't have one already, follow some people, and see if you like the results. If you do, move on to the next step. If you don't, go outside and have a beer; you're done.</li>
 
-		<li>Create a zombie Twitter account for your new bot. You can call it whatever you want.</li>
+		<li>Create a zombie Twitter account for your new bot. You can call it whatever you want. I call mine <a href="http://twitter.com/mike_stellar">@mike_stellar</a>.</li>
 
-		<li>While logged into your zombie account, go to https://dev.twitter.com/apps/new and set up a new app. You can put whatever you want into the fields as you're just trying to get your API keys</li>
+		<li>While logged into your zombie account, go to <a href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a> and set up a new app. You can put whatever you want into the fields as you're just trying to get your API keys.</li>
 
 		<li>Click the "Settings" tab and change your App's access to "Read and Write".</li>
 
@@ -69,9 +69,9 @@
 
 		<li>Copy your Consumer Key, Consumer Secret, Access Token, and Access Token Secret for use in Step 11.</li>
 
-		<li>Create a directory on your server for this, and and other Twitter bots you might want to run. You can call it "twitterbots".</li>
+		<li>Create a directory on your server for this, and any other Twitter bots you might want to run. You can call it "twitterbots".</li>
 
-		<li>Grab the "twitteroauth" folder from http://github.com/abraham/twitteroauth and place it in your "twitterbots" directory. This is a PHP library which allows for easy OAuthing with Twitter.</li>
+		<li>Grab the "twitteroauth" folder from <a href="http://github.com/abraham/twitteroauth">http://github.com/abraham/twitteroauth</a> and place it in your "twitterbots" directory. This is a PHP library which allows for easy OAuthing with Twitter.</li>
 
 		<li>Create a directory on your server for this Twitter bot inside the "twitterbots" folder. You can call it "stellar".</li>
 
@@ -97,7 +97,7 @@
 	<dt>Is this script officially endorsed or supported by Twitter, Stellar, or any of the people who said services?</dt>
 	<dd>Nope. It's just a little skunkworks project to make both services more enjoyable.</dd>
 	<dt>Who wrote this garbage PHP and why is the code so ugly?</dt>
-	<dd>I did, and because I'm a designer. It gets the job done just fine, but if you'd like to rewrite or improve it right here on GitHub, by all means do!</dd>
+	<dd>I did, and it sucks because I'm a designer. It gets the job done just fine, but if you'd like to rewrite or improve it right here on GitHub, by all means do!</dd>
 </dl>
 
 <h3>Authors and Contributors</h3>
