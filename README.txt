@@ -6,7 +6,7 @@ Stellar Tweetbot README
 
 2. Create a zombie Twitter account for your new bot. You can call it whatever you want. I call mine @mike_stellar.
 
-3. While logged into your zombie account, go to https://dev.twitter.com/apps/new and set up a new app. You can put whatever you want into the fields as you're just trying to get your API keys.
+3. While logged into your zombie account, go to https://dev.twitter.com/apps/new and set up a new app. You can put whatever you want into the fields as you're just trying to get your API keys. Do NOT click the blue "Create My Access Token" button yet.
 
 4. Click the "Settings" tab and change your App's access to "Read and Write".
 
